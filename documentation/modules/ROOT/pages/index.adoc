@@ -4,11 +4,23 @@
 :sectlinks:
 :doctype: book
 
-A brief introduction of this solution pattern.
+A brief introduction of this solution pattern. 
 
-_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum_
+image::ossm-logo.png[Service Mesh Logo]
 
-*Contributors:* _Your Name(s) here (can add links to your profile)_
+As your applications evolve into collections of decentralized microservices, monitoring and managing the network communications and security among those multiple services becomes more challenging.
+
+Red Hat® OpenShift® Service Mesh provides a uniform way to connect, manage, and observe microservices-based applications. It provides behavioral insight into—and control of—the networked microservices in your service mesh.
+
+
+Based on the open source Istio project, Red Hat OpenShift Service Mesh provides additional functionality with the inclusion of other open source projects like Kiali (Istio console) and Jaeger (distributed tracing), which supports collaboration with leading members of the Istio community.
+
+This solution pattern demonstrates the essential components for installing and configuring a basic Service Mesh istio control plane, setting up an application with policy-driven management in OpenShift Service Mesh, and showcasing management and observability tools for effective service mesh oversight.
+
+_Note: This solution pattern is based on OpenShift Service Mesh 2.x. Updates for 3.x will come at a later time (TBD)_
+
+*Contributors:* _Leon Levy link:https://github.com/bugbiteme[GitHub^]_
+
 
 ++++
  <br>
